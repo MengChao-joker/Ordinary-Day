@@ -34,12 +34,12 @@
   </servlet-mapping>
 
   <servlet>
-    <servlet-name>login</servlet-name>
-    <servlet-class>LocalServlet</servlet-class>
+    <servlet-name>cookie</servlet-name>
+    <servlet-class>setCookieServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>login</servlet-name>
-    <url-pattern>/test</url-pattern>
+    <servlet-name>cookie</servlet-name>
+    <url-pattern>/ck</url-pattern>
   </servlet-mapping>
 
 
