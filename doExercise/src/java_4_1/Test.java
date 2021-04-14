@@ -4,7 +4,32 @@ import java.util.Scanner;
 
 public class Test {
     public static int a;
+
     public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int res = 0;
+        while(s.hasNext()){
+            int n = (int)s.nextLine().charAt(0);
+            int[] nums = new int[n];
+            String num = s.nextLine();
+            for (int i = 0; i < n; i++) {
+                nums[i]=num.charAt(i);
+            }
+            for (int i = 0; i < n-2; i++) {
+                if (nums[i] > nums[i + 1] && nums[i + 1] < nums[i+2]) {
+                    res++;
+                    i++;
+                }
+                if (nums[i] < nums[i + 1] && nums[i + 1] > nums[i+2]) {
+                    res++;
+                    i++;
+                }
+            }
+
+        }
+        System.out.println(res);
+    }
+    public static void main3(String[] args) {
         HashSet<Character> set = new HashSet<>();
         Scanner s = new Scanner(System.in);
         StringBuilder res = new StringBuilder("");
