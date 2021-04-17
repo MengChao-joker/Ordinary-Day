@@ -1,4 +1,4 @@
-package java2021_4_14;
+package java_4_14;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -10,6 +10,7 @@ public class CustomHTTP {
         //创建一个服务器
 
         ServerSocket serverSocket = new ServerSocket(port);
+
 
         //2等待客户端的连接
         Socket socket = serverSocket.accept();

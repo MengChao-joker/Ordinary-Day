@@ -1,4 +1,4 @@
-package java2021_4_14;
+package java_4_14;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -16,7 +16,7 @@ public class ServerByCN {
         Socket client = serverSocket.accept();
         System.out.println(String.format("有客户端连接了，客户端ip：%s，客户端端口号：%d",
                 client.getInetAddress().getHostAddress(), client.getPort()));
-            //try_resouce
+            //try_resource
             try (BufferedWriter bufferedWriter = new BufferedWriter(
                     new OutputStreamWriter(client.getOutputStream()));
                  BufferedReader bufferedReader = new BufferedReader(

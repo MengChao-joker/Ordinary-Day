@@ -1,3 +1,5 @@
+package java_4_1;
+
 class Solution2 {
     //双循环时间复杂都过高！！
     public int findDuplicate(int[] nums) {

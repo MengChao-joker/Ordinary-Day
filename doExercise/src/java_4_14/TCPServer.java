@@ -1,4 +1,4 @@
-package java2021_4_14;
+package java_4_14;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -14,7 +14,7 @@ public class TCPServer {
         //登陆服务器的链接
         Socket client = serverSocket.accept();
         System.out.println(String.format("有客户端连接了，客户端ip：%s，客户端端口号：%d",
-                client.getInetAddress().getHostAddress(),client.getPort()));
+                client.getInetAddress().getHostAddress(), client.getPort()));
 //        BufferedReader bufferedReader = null;
 //        BufferedWriter bufferedWriter = null;
 //        try {
@@ -40,18 +40,20 @@ public class TCPServer {
 //            }
 //        }
         //try_resouce
-        try(BufferedWriter bufferedWriter = new BufferedWriter(
-                new OutputStreamWriter(client.getOutputStream()));
-            BufferedReader bufferedReader = new BufferedReader(
-                    new InputStreamReader(client.getInputStream()))
-        ){
-            String msg = bufferedReader.readLine();
-            if(msg!=null&&msg.equals("")) {
-                System.out.println("客户端的信息是：" + msg);
-            }
+        while (true) {
+            try (BufferedWriter bufferedWriter = new BufferedWriter(
+                    new OutputStreamWriter(client.getOutputStream()));
+                 BufferedReader bufferedReader = new BufferedReader(
+                         new InputStreamReader(client.getInputStream()))
+            ) {
+                String msg = bufferedReader.readLine();
+                if (msg != null && msg.equals("")) {
+                    System.out.println("客户端的信息是：" + msg);
+                }
 
-            bufferedWriter.write("我收到了！"+"\n");
-            bufferedWriter.flush();
+                bufferedWriter.write("我收到了！" + "\n");
+                bufferedWriter.flush();
+            }
         }
     }
 }

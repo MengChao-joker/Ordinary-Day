@@ -30,7 +30,7 @@ public class UDPServer {
             System.out.println("服务器端收到的消息是："+msg);
 
             //给客户返回一个消息msg.replace("你","我").replace("吗？","。");
-            String reMsg = "I got it!";
+            String reMsg = msg.replace("你","我").replace("吗？","。");
             //服务器响应包
             DatagramPacket resPocket = new DatagramPacket(
                     reMsg.getBytes(),
