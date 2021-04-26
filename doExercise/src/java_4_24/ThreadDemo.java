@@ -3,6 +3,7 @@ package java_4_24;
 public class ThreadDemo {
     private static long count = 1_0000_0000L;
     public static void main(String[] args) throws InterruptedException {
+        //多线程串行效率不及单线程串行：线程的创建需要耗费资源
 //        serial();
         concurrency();
 

@@ -13,6 +13,7 @@ public class ThreadDemo5 {
                         Thread.sleep(500);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
+                        flag = 1;
                         break;//此线程两个时期run()方法和sleep()当sleep()时期被打断是也应该终止线程
                     }
                 }
