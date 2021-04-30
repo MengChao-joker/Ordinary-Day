@@ -9,17 +9,18 @@ public class YangHui {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> ret = new ArrayList<>();
         if(numRows==0) return ret;
-
-        for (int i = 1; i <= numRows; i++) {
-            List<Integer> curCow = new ArrayList<>();
-            curCow.add(1);
-            for (int j = 2; j < i; j++) {
-                curCow.add(ret.get(i-1-1).get(j)+ret.get(i-1-1).get(j-1));
+        for (int i = 1; i < numRows; i++) {
+            List<Integer> list = new ArrayList<>();
+            for (int j = 1; j < i; j++) {
+                if(j=1) {
+                    list.add(1);
+                }else {
+                    list.add(ret.get(i - 1).get(j)+ret.get(i-1).get(j-1));
+                }
             }
-            curCow.add(1);
-            ret.add(curCow);
+            list.add(1);
+            ret.add(list);
         }
         return ret;
     }
-    Queue<Integer> queue = new LinkedList<>();
 }
