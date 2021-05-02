@@ -14,7 +14,23 @@ class TreeNode {
 public class Solution {
 
 
-    //A树中是否存在B树
+    //平衡二叉树
+    public boolean isBalanced(TreeNode root) {
+        if(root == null) return true;
+        //两子树高度差大于1 return false
+        if(Math.abs(getHigh(root.left)-getHigh(root.right))>1) return false;
+
+        return isBalanced(root.left)&&isBalanced(root.right);
+    }
+    private int high = 0;
+    private int getHigh(TreeNode root){
+        if(root == null) return 0;
+        //最大高度
+        return Math.max(getHigh(root.left)+1,getHigh(root.right)+1);
+    }
+
+
+    // 另一个树的子树
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
         //判空
         if(root == null&&subRoot == null) return true;
