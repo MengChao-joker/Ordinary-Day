@@ -256,18 +256,13 @@ public class Sort {
         quickSortHelper(array,0,array.length-1);
 
     }
-
     private static void quickSortHelper(int[] array, int left, int right) {
         //此时区间中有零个或一个元素，不需要排序
         if(left>=right) return;
-
         //找到基准点进行递归
         int index = partition(array,left,right);
         quickSortHelper(array,left,index-1);
         quickSortHelper(array,index+1,right);
-
-
-
     }
 
     private static int partition(int[] array, int left, int right) {
@@ -328,25 +323,235 @@ public class Sort {
         }
     }
 
+
+
+
+
+
+
+
+    public static void insertSort2(int[] array){
+        for (int i = 1; i < array.length; i++) {
+            int j = i-1;
+            int temp = array[i];
+            for ( ; j >= 0; j--) {
+                if(array[j]>temp){
+                    swap(array,j,j+1);
+                }else{
+                    break;
+                }
+            }
+            array[j+1] = temp;
+        }
+    }
+
+
+    public static void shellSort2(int[] array){
+        int gap = array.length>>1;
+        //缩小增量：从数组长的一半开始取增量，之后依次取半
+        while(gap>=1){
+            //带有增量的插入排序
+            shellSortHelper2(array,gap);
+            gap = gap>>1;
+        }
+    }
+
+    private static void shellSortHelper2(int[] array, int gap) {
+        //找到《=当下需要插入元素的值，出入在他前面
+        for (int i = gap; i < array.length; i++) {//i每次加一！！！！！！
+            int temp = array[i];//保存的是需要插入值的下表i！！！！！！
+            //保存i下标的值 便于和前面的数值进行对比 也方便之后的赋值
+            int j = i-gap;
+            for (; j >= 0 ; j-=gap) {
+                if(array[j]>temp){
+                    array[j+gap] = array[j];
+                }else {
+                    break;
+                }
+            }
+            array[j+gap] = temp;
+        }
+    }
+
+
+    public static void selectSort2(int[] array){
+        //打擂台的模式：每次确定一个第一牛逼的人 之后依次确定第二牛逼 第三第四等等~直到确认len-1牛逼的人
+        for (int i = 0; i < array.length-1; i++) {
+            for (int j = i+1; j <array.length ; j++) {
+                if(array[j]<array[i]){
+                    swap(array,i,j);//不稳定{3331}第一次交换就导致了不稳定
+                }
+            }
+        }
+    }
+
+
+    public static void bubbleSort2(int[] array){
+        for (int i = 0; i < array.length-1; i++) {
+            //每次确定一个最大值或最小值，将其冒泡
+            int pos = 0;
+            for (int j = 1; j < array.length - i; j++) {
+                if (array[j] < array[j - 1]) {
+                    swap(array, j, j - 1);
+                    pos = 1;
+                }
+            }
+            if (pos == 0) {
+                break;
+            }
+        }
+    }
+
+
+
+    public static void heapSort2(int[] array){
+        /**
+         * 建立一个大队
+         * 依次将堆顶元素与末尾元素交换，并删除末尾元素
+         */
+        createHeap2(array);
+        int size = array.length;
+        while(size>1){
+            swap(array,0,size-1);
+            size--;
+            shiftDown2(array,size,0);
+        }
+    }
+    private static void createHeap2(int[] array) {
+        shiftDown2(array,array.length,(array.length-1)>>1);
+    }
+
+    private static void shiftDown2(int[] array, int size, int index) {
+        int parent = index;
+        int child = parent*2+1;
+        while(child<size){
+            if(child+1<size&&array[child+1]>array[child]){
+                child++;
+            }
+            if(array[child]>array[parent]){
+                swap(array,child,parent);
+            }
+            parent = child;
+            child = parent*2+1;
+        }
+    }
+
+
+    public static void quickSort2(int[] array){
+        /**、
+         * 寻找基准pivot
+         * 将区间分为而部分【beg，pivot】【pivot+1，end】
+         * 进行递归重复
+         */
+        quickSortHelper2(array,0,array.length-1);
+
+
+    }
+
+    private static void quickSortHelper2(int[] array, int left, int right) {
+        if(left>=right) return;//区间只剩1个或零个元素
+
+        int pivot = partition2(array,left,right);
+        quickSortHelper2(array,left,pivot-1);//递归左边区间[left,pivot-1]!!!!!!!!!!!!!!!!!
+        quickSortHelper2(array,pivot+1,right);//递归👉边区间[pivot+1,right// ]!!!!!!!!!!!!!!!!!
+    }
+
+    private static int partition2(int[] array, int left, int right) {
+        int pos = right;
+        int temp = array[right];
+        //每次冲区间右边取得一个基准值
+        //然后从左到右寻找一个大于基准值的数  在从右到左寻找一个小于基准值的数
+        //交换两束  直至下标重合
+        while(left<right){
+            while (left<right&&array[left]<=temp){
+                //《=体现稳定性
+                left++;
+            }
+            while(left<right&&array[right]>=temp){
+                right--;
+            }
+            swap(array,left,right);
+        }
+        //最终找的的值一定大于基准值：若是循环1退出，则此时下标重复的值为上一循环结束时最左边找到的大于基准值的数
+        //                      若是循环二退出，重复下标的值一定大于基准，因为上一次循环找到了大于基准值的数
+        swap(array,left,pos);
+        return left;
+    }
+
+
+    public static void mergeSort2(int[] array){
+        /**
+         * 现将数组分为两个区间
+         * 在对这两个区间依次递归
+         * 直到两个区间有一个或零个元素
+         * 在对有序的两个区间进行合并
+         */
+        mergeSortHelper2(array,0,array.length);
+
+    }
+
+    private static void mergeSortHelper2(int[] array, int beg, int end) {
+        if(end-beg<=1) return;//此时区间只有一个或零个元素
+
+        int mid = (beg+end)>>1;
+        mergeSortHelper2(array,beg,mid);
+        mergeSortHelper2(array,mid,end);
+        //此时左右区间为两个有序的区间 进行合并
+        merge2(array,beg,mid,mid,end);
+
+    }
+
+    private static void merge2(int[] array, int beg1, int end1, int beg2, int end2) {
+        int pos = beg1;
+        int[] temp = new int[end2-beg1];
+        int index = 0;
+        while (beg1<end1&&beg2<end2){
+            if(array[beg1]<=array[beg2]){
+                temp[index++] = array[beg1++];
+            }else {
+                temp[index++] = array[beg2++];
+            }
+        }
+        while(beg1<end1) temp[index++] = array[beg1++];
+        while(beg2<end2) temp[index++] = array[beg2++];
+        for (int i = 0; i < temp.length; i++) {
+            array[pos++] = temp[i];
+        }
+    }
+    public static void mergeSortByLoop(int[] array){
+        for (int gap = 1; gap < array.length; gap*=2) {
+            for (int i = 0; i < array.length; i+=gap*2) {
+                int beg1 = i;
+                int mid = i+gap;
+                int end2 = i+2*gap;
+                //防止下标越界
+                if(mid>array.length) mid = array.length;
+                if(end2>array.length) end2 = array.length;
+                merge2(array,beg1,mid,mid,end2);
+            }
+        }
+    }
+
+
     public static void main(String[] args) {
-        int[] nums = {9, 5, 2, 7, 3, 6, 8};
-//        insertSort1(nums);
-//        shellSort1(nums);
-//        selectSort(nums);
+        int[] nums = {9, 5, 2, 6, 7, 3, 6, 2, 8};
+//        insertSort2(nums);
+//        shellSort2(nums);
+//        selectSort2(nums);
 //        heapSort(nums);
 //        bubbleSort1(nums);
-//        quickSort(nums);
-        mergeSort(nums);
+//        quickSort2(nums);
+        mergeSortByLoop(nums);
         System.out.println(Arrays.toString(nums));
-//        Random random = new Random();
-//        int[] nums1 = new int[88888];
-//        for (int i = 0; i < 88888; i++) {
-//            nums1[i] = random.nextInt(50000);
-//        }
-//        long begin = System.currentTimeMillis();
-//        mergeSort(nums1);
-//        long end = System.currentTimeMillis();
-//        System.out.println(end - begin);
-//        System.out.println(Arrays.toString(nums1));
+        Random random = new Random();
+        int[] nums1 = new int[88888];
+        for (int i = 0; i < 88888; i++) {
+            nums1[i] = random.nextInt(50000);
+        }
+        long begin = System.currentTimeMillis();
+        mergeSortByLoop(nums1);
+        long end = System.currentTimeMillis();
+        System.out.println(end - begin);
+        System.out.println(Arrays.toString(nums1));
     }
 }
