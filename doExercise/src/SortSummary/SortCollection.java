@@ -1,6 +1,4 @@
-package Summary;
-
-import java.util.Arrays;
+package SortSummary;
 
 public class SortCollection {
 
