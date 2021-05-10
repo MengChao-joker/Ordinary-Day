@@ -21,7 +21,7 @@ public class ThreadDemo4 {
         };
         thread.start();
         Thread.sleep(2000);
+        thread.join();//主线程等待，标记位不会改变，
         isQuit=true;
-
     }
 }

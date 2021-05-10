@@ -235,7 +235,6 @@ public class Sort {
         for (int i = index; i >= 0; i--) {
             adjustDown(array,size,index);
         }
-
     }
 
     private static void adjustDown(int[] array, int size,int index) {
@@ -549,7 +548,7 @@ public class Sort {
             nums1[i] = random.nextInt(50000);
         }
         long begin = System.currentTimeMillis();
-        mergeSortByLoop(nums1);
+        heapSort(nums1);
         long end = System.currentTimeMillis();
         System.out.println(end - begin);
         System.out.println(Arrays.toString(nums1));

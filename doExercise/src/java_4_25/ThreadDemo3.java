@@ -1,9 +1,9 @@
 package java_4_25;
 
-public class ThreadDemo3{
+public class ThreadDemo3 {
 
     public static void main(String[] args) throws InterruptedException {
-        Thread thread = new Thread("mby"){
+        Thread thread = new Thread("mby") {
             @Override
             public void run() {
                 for (int i = 0; i < 10; i++) {
@@ -26,11 +26,11 @@ public class ThreadDemo3{
         System.out.println(thread.isInterrupted());
         System.out.println(thread.isAlive());
         thread.start();
-        while(thread.isAlive()) {
+        while (thread.isAlive()) {
             System.out.println("mby线程正在运行！");
             System.out.println(thread.getState());
             System.out.println(thread.isInterrupted());
-            Thread.sleep(200);
+            Thread.sleep(500);
         }
     }
 }
