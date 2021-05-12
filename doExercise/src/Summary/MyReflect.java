@@ -1,7 +1,5 @@
-package SortSummary;
+package Summary;
 
-
-import java.lang.reflect.Field;
 
 class Cat{
     public String name;
@@ -44,7 +42,7 @@ public class MyReflect {
 
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException {
         //1.通过字符串来获取类对象
-        Class catClass = Class.forName("SortSummary.Cat");
+        Class catClass = Class.forName("Summary.Cat");
 
         //2.通过实例来获取，实例的getclass方法
         Cat cat = new Cat("小黑");

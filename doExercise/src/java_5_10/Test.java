@@ -1,7 +1,5 @@
 package java_5_10;
 
-import com.sun.org.apache.xpath.internal.operations.String;
-import com.sun.xml.internal.ws.addressing.WsaActionUtil;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -9,13 +7,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ThreadPoolExecutor;
 
 public class Test {
     private static String common;
-    ThreadPoolExecutor
-    private static ThreadLocal<String> threadLocal = new ThreadLocal<>();;
+    private static ThreadLocal<String> threadLocal = new ThreadLocal<>();
     public static void main(String[] args) throws InterruptedException {
         common = "main";
         threadLocal.set("我是main的局部变量~");
@@ -24,6 +20,7 @@ public class Test {
             public void run() {
                 common = "jmc";
                 threadLocal.set("我是jmc的局部变量~");
+                System.out.println(threadLocal.get());
             }
         };
         thread.start();

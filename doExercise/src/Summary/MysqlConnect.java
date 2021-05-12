@@ -1,9 +1,7 @@
-package SortSummary;
+package Summary;
 
-import com.mysql.jdbc.Driver;
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 
-import javax.sql.DataSource;
 import java.sql.*;
 
 class Books{

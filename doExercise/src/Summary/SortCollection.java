@@ -1,4 +1,4 @@
-package SortSummary;
+package Summary;
 
 public class SortCollection {
 
