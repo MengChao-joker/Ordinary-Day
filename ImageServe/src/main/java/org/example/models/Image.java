@@ -21,7 +21,7 @@ public class Image {
     md5 varchar(128),
     content_type varchar(50) comment '图片类型',
     path varchar(1024) comment '图片所在路径')*/
-    private Integer image_id;
+    private Integer imageId;
     private String image_name;
     private long size;
     private String upload_time;

@@ -68,7 +68,7 @@
 </div>
 <!-- content end -->
 <footer class="blog-footer">
-    <div class="blog-text-center">© Copyright by 汤老湿 </div>
+    <div class="blog-text-center">© Copyright by jmc </div>
 </footer>
 
 
@@ -122,7 +122,11 @@
                     // context: this,
                     success: function(data, status) {
                         app.getImages();
-                        // alert("上传成功");
+                        if(data.ok) {
+                            alert("上传成功~~");
+                        }else {
+                            alert("请勿重复上传~~");
+                        }
                     },
                     error: function (err, textStatus, throwable) {
                         console.error(err)
