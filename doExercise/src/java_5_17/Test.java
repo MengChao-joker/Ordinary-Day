@@ -12,6 +12,11 @@ public class Test {
             public void run() {
                 while (true) {
                     while(flag.get() == 12*60*60){
+                        try {
+                            Thread.sleep(10);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
                         System.out.println("日出");
                         for (int i = 0; i < 12*60*60; i++) {
                             flag.decrementAndGet();
@@ -19,13 +24,17 @@ public class Test {
                         System.out.println("日落");
                     }
                 }
-            }
-        };
+            }        };
         Thread thread1 = new Thread("月亮"){
             @Override
             public void run() {
                 while (true) {
                     while(flag.get() == 0){
+                        try {
+                            Thread.sleep(10);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
                         System.out.println("月升了");
                         for (int i = 0; i < 12*60*60; i++) {
                             flag.addAndGet(1);
