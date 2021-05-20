@@ -1,5 +1,7 @@
 package everday_practice;
 
+import java.util.Scanner;
+
 public class Day27 {
     /**
      * 1.缺页中断就是要访问的页不在主存，需要操作系统将其调入主存后再进行访问。
@@ -14,9 +16,51 @@ public class Day27 {
      * 那么就暂停随机的一定时间进行重试，这会大大减少碰撞的可能性。
      * @param args
      */
-
-
     public static void main(String[] args) {
+        //判断三角行
+
+        Scanner scanner = new Scanner(System.in);
+        double[] nums = new double[3];
+        while(scanner.hasNext()){
+            nums[0] = scanner.nextDouble();
+            nums[1] = scanner.nextDouble();
+            nums[2] = scanner.nextDouble();
+            if(isTriangle(nums)){
+                System.out.println("Yes");
+            }else {
+                System.out.println("No");
+            }
+        }
+
+    }
+    private static boolean isTriangle(double[] nums) {
+        double a = nums[0];
+        double b = nums[1];
+        double c = nums[2];
+        if(a+b<=c||a+c<=b||c+b<=a){
+            return false;
+        }
+        return true;
+    }
+
+    /**
+     * 题目描述
+     * 写一个函数，求两个整数之和，要求在函数体内不得使用+、-、*、/四则运算符号。
+     * 示例1
+     * 输入
+     * 1,2
+     * 返回值
+     * 3
+     * @param args
+     */
+    public int Add(int num1,int num2) {
+        while(num2!=0){
+            int temp = num1^num2;
+            num2 = (num1&num2)<<1;
+            num1 = temp;
+
+        }
+        return num1;
 
     }
 }

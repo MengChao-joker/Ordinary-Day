@@ -3,7 +3,7 @@ package everday_practice;
 import java.util.*;
 
 public class Test {
-    public static void main(String[] args) {
+    public static void main3(String[] args) {
        /* public synchronized void addElement(E obj) {
             modCount++;
             ensureCapacityHelper(elementCount + 1);//保证容量充足
