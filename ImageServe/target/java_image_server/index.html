@@ -59,7 +59,7 @@
             <div id="container">
                 <div v-for="image in images">
                     <img v-bind:src="'imageShow?imageId=' + image.imageId" style="height:200px; width:200px">
-                    <h3 style="margin-left: auto; margin-right: auto;">{{image.imageName}}</h3>
+                    <h3 style="margin-left: auto; margin-right: auto;">{{image.image_name}}</h3>
                     <button style="width:100%" class="am-btn am-btn-success" v-on:click.stop="remove(image.imageId)">删除</button>
                 </div>
             </div>

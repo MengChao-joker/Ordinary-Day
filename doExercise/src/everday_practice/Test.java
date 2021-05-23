@@ -3,6 +3,12 @@ package everday_practice;
 import java.util.*;
 
 public class Test {
+
+    public static void main(String[] args) {
+        String s = "asad";
+        System.out.println(s.replace(s.charAt(1), s.charAt(2)));
+        System.out.println(s);
+    }
     public static void main3(String[] args) {
        /* public synchronized void addElement(E obj) {
             modCount++;

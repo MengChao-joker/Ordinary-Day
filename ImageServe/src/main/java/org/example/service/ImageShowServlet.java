@@ -4,6 +4,7 @@ package org.example.service;
 import com.sun.scenario.effect.ImageData;
 import org.example.DAO.ImageDAO;
 import org.example.models.Image;
+import org.example.utils.ServletUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
