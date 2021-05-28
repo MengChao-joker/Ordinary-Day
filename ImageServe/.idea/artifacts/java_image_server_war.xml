@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="java_image_server.war">
+    <root id="archive" name="LTMusic.war">
       <element id="artifact" artifact-name="java_image_server:war exploded" />
     </root>
   </artifact>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="image_system@localhost" uuid="c65dcae1-96be-490c-a1b8-28e1b59da20b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/image_system</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="image" uuid="48d6c233-693e-4b83-ad71-1bf91fda8ec4">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/image_system</jdbc-url>
+    </data-source>
+  </component>
+</project>

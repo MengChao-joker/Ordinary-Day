@@ -30,6 +30,11 @@ public class Test {
             @Override
             public void run() {
                 synchronized (lockerA) {
+                    try {
+                        sleep(200);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                     System.out.println("notify前");
                     lockerA.notify();
                     try {

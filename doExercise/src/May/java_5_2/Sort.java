@@ -537,10 +537,10 @@ public class Sort {
 //        insertSort2(nums);
 //        shellSort2(nums);
 //        selectSort2(nums);
-//        heapSort(nums);
+        heapSort2(nums);
 //        bubbleSort1(nums);
 //        quickSort2(nums);
-        mergeSortByLoop(nums);
+//        mergeSortByLoop(nums);
         System.out.println(Arrays.toString(nums));
         Random random = new Random();
         int[] nums1 = new int[88888];
@@ -548,7 +548,7 @@ public class Sort {
             nums1[i] = random.nextInt(50000);
         }
         long begin = System.currentTimeMillis();
-        heapSort(nums1);
+        heapSort2(nums1);
         long end = System.currentTimeMillis();
         System.out.println(end - begin);
         System.out.println(Arrays.toString(nums1));

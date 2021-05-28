@@ -12,6 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="java_image_server" target="1.8" />
+      <module name="LTMusic" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

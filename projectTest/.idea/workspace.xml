@@ -20,9 +20,340 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="970b097b-0291-466a-9e08-66a79856cb59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../JavaTest/out/production/JavaTset/META-INF/JavaTset.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projectTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projectTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ImageServe/.idea/artifacts/LTMusic_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ImageServe/.idea/artifacts/LTMusic_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ImageServe/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/DB/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/org/example/Dao/LoveDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/org/example/Dao/MusicDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/org/example/Dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/org/example/Utils/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/org/example/middle/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/org/example/middle/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/org/example/models/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/org/example/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/org/example/service/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/MV.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/WEB-INF/lib/commons-codec-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/init.sql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/loveMusic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/music/李亮节 - 大饼卷一切.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/music/红装.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/music/赵雷 - 十九岁.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/uploadsucess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/src/main/webapp/video/dy1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/MV.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/org/example/Dao/LoveDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/org/example/Dao/MusicDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/org/example/Dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/org/example/Utils/DBUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/org/example/models/Music.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/org/example/models/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/org/example/service/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/MV.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/WEB-INF/lib/commons-codec-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/init.sql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/loveMusic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/music/李亮节 - 大饼卷一切.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/music/红装.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/music/赵雷 - 十九岁.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/uploadsucess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/classes/webapp/video/dy1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/commons-codec-1.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/commons-codec-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/jackson-annotations-2.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/jackson-core-2.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/jackson-databind-2.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/lombok-1.18.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/lib/mysql-connector-java-5.1.49.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/init.sql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/loveMusic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/music/李亮节 - 大饼卷一切.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/music/红装.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/music/赵雷 - 十九岁.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/uploadsucess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/LTMusic/video/dy1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/org/example/Dao/LoveDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/org/example/Dao/MusicDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/org/example/Dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/org/example/Utils/DBUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/org/example/middle/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/org/example/models/Music.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/org/example/models/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/MV.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/WEB-INF/lib/commons-codec-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/init.sql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/loveMusic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/music/李亮节 - 大饼卷一切.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/music/红装.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/music/赵雷 - 十九岁.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/uploadsucess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LTMusic/target/classes/webapp/video/dy1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortTest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_24/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_24/Test$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_24/Test$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_24/Test$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_24/Test$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_24/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/everday_practice/Day30.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doExercise/src/May/java_5_24/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doExercise/src/May/java_5_24/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doExercise/src/everday_practice/Day30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetCode/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetCode/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetCode/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetCode/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetCode/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetCode/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetCode/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetCode/leetCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/java_5_24/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetCode/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetCode/src/java_5_24/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/.idea/artifacts/java_image_server_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageServe/.idea/artifacts/java_image_server_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/.idea/artifacts/java_image_server_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageServe/.idea/artifacts/java_image_server_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageServe/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageServe/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageServe/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/src/main/java/org/example/utils/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageServe/src/main/java/org/example/utils/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/classes/META-INF/java_image_server.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/classes/org/example/utils/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageServe/target/classes/org/example/utils/DBUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/classes/META-INF/java_image_server.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/classes/org/example/DAO/ImageDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/classes/org/example/exception/AppException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/classes/org/example/models/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/classes/org/example/service/ImageServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/classes/org/example/service/ImageShowServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/classes/org/example/test/FileCopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/classes/org/example/utils/DBUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/classes/org/example/utils/ServletUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/lib/commons-codec-1.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/lib/commons-fileupload-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/lib/jackson-annotations-2.11.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/lib/jackson-core-2.11.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/lib/jackson-databind-2.11.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/lib/lombok-1.18.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/lib/mysql-connector-java-5.1.49.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/css/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/css/amazeui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/css/amazeui.flat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/css/amazeui.flat.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/css/amazeui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/css/lw-admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/app-icon72x72@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/b3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/examples/admin-chrome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/examples/admin-firefox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/examples/admin-ie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/examples/admin-opera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/examples/admin-safari.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/examples/adminPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/examples/blogPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/examples/landing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/examples/landingPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/examples/loginPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/examples/sidebarPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f16.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f161.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/i/startup-640x1096.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/js/amazeui.ie8polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/js/amazeui.ie8polyfill.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/js/amazeui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/js/amazeui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/js/amazeui.widgets.helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/js/amazeui.widgets.helper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/js/handlebars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/js/img.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/js/jquery.waterfall.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/assets/js/pinto.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/imageCollection/QQ图片20210512195654.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/jquery-1.9.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/js/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/js/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageServe/target/java_image_server/upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortTset/src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$MyRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test$MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doExercise/out/production/doExercise/May/java_5_23/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doExercise/src/May/java_5_23/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../doExercise/src/May/java_5_23/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +483,7 @@
       <workItem from="1617186245233" duration="147000" />
       <workItem from="1617187767753" duration="182000" />
       <workItem from="1617188865680" duration="293000" />
+      <workItem from="1621923899416" duration="11000" />
     </task>
     <servers />
   </component>
