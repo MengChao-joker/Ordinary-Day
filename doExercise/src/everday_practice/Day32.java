@@ -2,8 +2,7 @@ package everday_practice;
 
 import org.omg.PortableInterceptor.INACTIVE;
 
-import java.util.Scanner;
-import java.util.Stack;
+import java.util.*;
 
 public class Day32 {
     //五子棋
@@ -55,7 +54,7 @@ public class Day32 {
 }
 
     //Emacs计算器
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()){
             int n = scanner.nextInt();
@@ -85,6 +84,16 @@ public class Day32 {
             System.out.println(ret);
 
         }
+
+    }
+
+    public static void main(String[] args) {
+        Map<String,String> map = new HashMap<>();
+        map.put(null,"saca");
+        Map<String,String> map1 = new Hashtable<>();
+        map1.put(null, "caca");
+        System.out.println(map.get(null));
+        System.out.println(map1.get(null));
 
     }
 }
