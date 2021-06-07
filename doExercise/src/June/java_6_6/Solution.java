@@ -28,6 +28,15 @@ class CQueue {
     }
 }
 public class Solution {
+    public static void main(String[] args) {
+        byte b1 = 1,b2 = 2,b6;
+        byte b3 = (byte) (b1 + b2);
+        final byte b5 = 126,b4 = 1;
+        b6 = b4+b5;
+//        final byte b5 = 127,b4 = 1;
+//        b6 = (int)(b4+b5);//常量相加大于取值范围类型提升
+        System.out.println(b6);
+    }
     //1030. 距离顺序排列矩阵单元格
     public int[][] allCellsDistOrder(int R, int C, int r0, int c0) {
         int[][] re = new int[R * C][2];
