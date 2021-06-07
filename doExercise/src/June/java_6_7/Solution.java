@@ -8,10 +8,11 @@ class Solution {
         System.out.println(removeElement(nums, 2));
         System.out.println(Arrays.toString(nums));
         int[] n = {};
-        for (int num:n){
+        for (int num : n) {
             System.out.println(num);
         }
     }
+
     //27. 移除元素
     public static int removeElement(int[] nums, int val) {
         int l = 0;
@@ -31,15 +32,15 @@ class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int[] ret = new int[2];
         int l = 0;
-        int r = numbers.length-1;
-        while(l<r){
-            if(numbers[l]+numbers[r]>target){
+        int r = numbers.length - 1;
+        while (l < r) {
+            if (numbers[l] + numbers[r] > target) {
                 r--;
-            }else if(numbers[l]+numbers[r]<target){
+            } else if (numbers[l] + numbers[r] < target) {
                 l++;
-            }else {
-                ret[0] = l+1;
-                ret[1] = r+1;
+            } else {
+                ret[0] = l + 1;
+                ret[1] = r + 1;
                 return ret;
             }
         }
@@ -56,8 +57,8 @@ class Solution {
         // return ret;
     }
 
-    
-    //559. N 叉树的最大深度
+
+    /*//559. N 叉树的最大深度
     // //广度优先DFS
     // public int maxDepth(Node root) {
     //     if(root==null) return 0;//判空
@@ -87,7 +88,35 @@ class Solution {
             ret = Math.max(ret,maxDepth(cur)+1);
         }
         return ret;
+    }*/
+    public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
+        int ret = 0;
+        for (int n1 : arr1) {
+            int len = arr2.length - 1;
+            while (len >= 0) {
+                if (Math.abs(n1 - arr2[len]) <= d) {
+                    break;
+                }
+                len--;
+            }
+            if (len == -1) ret++;
+        }
+        return ret;
+    }
 
+    public int findTheDistanceValue1(int[] arr1, int[] arr2, int d) {
+        int ret = 0;
+        for (int n1 : arr1) {
+            int pos = 0;
+            for (int n2 : arr2) {
+                if (Math.abs(n1 - n2) <= d) {
+                    pos = 1;
+                    break;
+                }
+            }
+            if (pos == 0) ret++;
+        }
+        return ret;
     }
 }
 
